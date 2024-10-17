@@ -18,7 +18,7 @@ This is a simple Student Attendance System that detects and matches faces from a
   - Numpy
     
   You can install the required packages using pip:
-  ## pip install opencv-python numpy
+  pip install opencv-python numpy
 
 # Dataset Format
   The dataset is loaded from a CSV file containing student information. The CSV should follow this structure:
@@ -42,6 +42,7 @@ This is a simple Student Attendance System that detects and matches faces from a
 # Usage
   - Place your group image (e.g., P21.png) in the project directory.
   - Modify the face_data.csv file to include your dataset.
- **Run the script:**
-  - python attendance_system.py
+    
+  **Run the script:**
+  python attendance_system.py
   - The program will detect faces in the group image, match them with the dataset, and display the annotated image. Attendance data will be saved in the faces.db SQLite database.
