@@ -5,8 +5,11 @@ This is a simple Student Attendance System that detects and matches faces from a
 
 # Features
   Face detection using Haar Cascade Classifier.
+  
   Matches detected faces with a dataset of student names and USNs.
+  
   Annotates the group image with detected faces, names, and USNs.
+  
   Stores the attendance information (name and USN) in an SQLite database.
 
 # Prerequisites
